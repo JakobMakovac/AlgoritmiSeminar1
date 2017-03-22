@@ -3,7 +3,9 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 import javax.imageio.ImageIO;
 
@@ -15,7 +17,16 @@ public class Seminar1{
     	Pixel endCoor = new Pixel(ex, ey);
     	//TODO: vas algoritem
 
+		//Already evaluated nodes
+		List<Pixel> closedSet = new ArrayList<>();
 
+		//Set of discovered nodes that are not evaluated yet.
+		List<Pixel> openSet = new ArrayList<>();
+
+		//
+		List<Pixel> cameFrom = new ArrayList<>();
+
+		openSet.add(new Pixel(sx, sy));
 
 		return null;
     }

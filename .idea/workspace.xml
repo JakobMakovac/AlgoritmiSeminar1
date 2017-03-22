@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e48d23d-bbfc-4735-aa9c-4c86a6a04700" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Testing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Seminar1.java" afterPath="$PROJECT_DIR$/src/Seminar1.java" />
-    </list>
+    <list default="true" id="3e48d23d-bbfc-4735-aa9c-4c86a6a04700" name="Default" comment="" />
     <ignored path="SeminarskaAlgoritmi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />

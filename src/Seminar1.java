@@ -1,6 +1,7 @@
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.ListIterator;
@@ -9,13 +10,14 @@ import javax.imageio.ImageIO;
 public class Seminar1{	
     public Seminar1(){}
 
-    // Morebitne pomozne funkcije in razredi.
-	
     public LinkedList<Pixel> solve(int[][] heightMap, int sx, int sy, int ex, int ey){
     	Pixel startCoor = new Pixel(sx, sy);
     	Pixel endCoor = new Pixel(ex, ey);
     	//TODO: vas algoritem
-    	return null;
+
+
+
+		return null;
     }
    
     public static String studentId(){
@@ -32,7 +34,7 @@ public class Seminar1{
     	
     	//Nalozi sliko z diska iz .bmp oblike
     	public void loadBMP(String filename) throws IOException{
-    		BufferedImage image = ImageIO.read(new File(filename));
+    		BufferedImage image = ImageIO.read(new FileInputStream(filename));
     		width = image.getWidth();
     		height = image.getHeight();
     		imageArray = new int[width][height];
